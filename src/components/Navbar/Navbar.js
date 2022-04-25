@@ -108,7 +108,6 @@ const Navbar = () => {
         <Nav scrollNav={scrollNav}>
           <NavContainer>
             <NavLink to="">
-               <NavItems style={{paddingLeft:"20px"}}>
                 <NavLogo alt={"logo"} src={"config/images/logo.png"} onClick={toggleHome}></NavLogo>
             </NavLink>
           <NavMenu onClick={handleClick} click={click}>

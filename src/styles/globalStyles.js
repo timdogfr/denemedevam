@@ -14,7 +14,7 @@ export const Body = styled.div`
 
   :after{
   content: "";
-  background-image: url('config/images/bg.gif') ;
+  background-image: url('config/images/bg.jpg') ;
   background-size: cover;
   background-position: 100% 100%;
   opacity: 0.2;

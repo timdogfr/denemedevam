@@ -112,7 +112,7 @@ const Navbar = () => {
             </NavLink>
           <NavMenu onClick={handleClick} click={click}>
               <NavItems>
-                  <NavLink onClick={homeLink}  spy={true} smooth={true} offset={-80} duration={500}>Home</NavLink> 
+                  <NavLink onClick={homeLink}  spy={true} smooth={true} offset={-80} duration={500}>Go To Website</NavLink> 
                 </NavItems>
               
                

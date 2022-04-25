@@ -125,7 +125,6 @@ const Navbar = () => {
 
                 </NavItems>
 
-                {blockchain.account === "" || blockchain.smartContract === null ? (
                 <NavItems>
                 ) : ""}
 

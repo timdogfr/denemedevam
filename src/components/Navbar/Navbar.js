@@ -108,11 +108,11 @@ const Navbar = () => {
         <Nav scrollNav={scrollNav}>
           <NavContainer>
             <NavLink to="">
+               <NavItems style={{paddingLeft:"20px"}}>
                 <NavLogo alt={"logo"} src={"config/images/logo.png"} onClick={toggleHome}></NavLogo>
             </NavLink>
           <NavMenu onClick={handleClick} click={click}>
               <NavItems>
-              <NavItems style={{paddingLeft:"20px"}}>
                   <NavLink onClick={homeLink}  spy={true} smooth={true} offset={-80} duration={500}>Go To Website</NavLink> 
                 </NavItems>
               

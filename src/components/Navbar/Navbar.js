@@ -122,22 +122,10 @@ const Navbar = () => {
                     <NavIcon src={"config/images/discord.png"}></NavIcon>
                   </NavLink>
 
-
-                </NavItems>
-
                 <NavItems>
                 ) : ""}
 
-                {/* Mobile Version */}
-                <NavItems>
-                <StyledButtonMobile 
-                  onClick={(e) => {
-                          e.preventDefault();
-                          dispatch(connect());
-                          getData();
-                        }}
-                  >CONNECT</StyledButtonMobile>
-                </NavItems> 
+                {/* Mobile Version */
 
                 {/* End Mobile Version */}
                

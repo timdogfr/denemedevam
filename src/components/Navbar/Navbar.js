@@ -127,15 +127,6 @@ const Navbar = () => {
 
                 {blockchain.account === "" || blockchain.smartContract === null ? (
                 <NavItems>
-               
-                <StyledButton 
-                  onClick={(e) => {
-                          e.preventDefault();
-                          dispatch(connect());
-                          getData();
-                        }}
-                  >CONNECT</StyledButton>
-                </NavItems>
                 ) : ""}
 
                 {/* Mobile Version */}
